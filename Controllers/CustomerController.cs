@@ -35,5 +35,11 @@ namespace Vidly.Controllers
                 new Customer { Id = 2, Name = "Mary Williams" }
             };
         }
+
+
+        public ActionResult About()
+        {
+            return View();
+        }
     }
 }
